@@ -10,5 +10,10 @@ public class TestController {
 	public String root() {
 		return "Spring Boot Test";
 	}
+	
+	@RequestMapping("/login")
+	public String login() {
+		return "Spring Boot Test";
+	}
 
 }
